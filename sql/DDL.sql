@@ -26,7 +26,7 @@ CREATE TABLE deliveries (
     city VARCHAR(100),
     time_taken_minutes INT,
     delivery_status VARCHAR(50),
-    revenue_gdp DECIMAL(10,2),
+    revenue_gbp DECIMAL(10,2),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
     FOREIGN KEY (courier_id) REFERENCES couriers(courier_id)
 
