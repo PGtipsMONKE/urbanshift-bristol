@@ -1,7 +1,7 @@
 # UrbanShift Churn Model Feature Decision Register
 
-Version: 2.1 (Final)
-Status: Approved for Modelling and AWS Migration
+Version: 2.1 
+Status: ???
 
 ## Purpose
 
