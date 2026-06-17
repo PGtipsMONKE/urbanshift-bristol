@@ -1,0 +1,121 @@
+customer_id,customer_name,customer_size,city,signup_date,account_manager,industry,payment_terms_days
+CUST1000,Apex Retail Ltd,Mid-size Retailer,London,2022-06-13,Tom Bradley,Beauty,60
+CUST1001,Blue Trading Ltd,Mid-size Retailer,London,2024-05-15,Mark Thompson,Books,30
+CUST1002,Coast Direct Ltd,Small Retailer,Bristol,2022-11-02,James Wilson,Fashion,30
+CUST1003,Delta Commerce Ltd,Small Retailer,Leeds,2024-06-28,Tom Bradley,Beauty,60
+CUST1004,Echo Store Ltd,Small Retailer,Manchester,2022-06-28,Mark Thompson,Electronics,30
+CUST1005,Flair Goods Ltd,Small Retailer,Manchester,2024-07-09,James Wilson,Other,30
+CUST1006,Grove Supply Ltd,Small Retailer,Bristol,2023-12-29,Priya Patel,Home,60
+CUST1007,Halo Market Ltd,Mid-size Retailer,Manchester,2023-06-25,Priya Patel,Fashion,45
+CUST1008,Iris Hub Ltd,Large Account,London,2022-09-10,Aisha Rahman,Fashion,30
+CUST1009,Jade Co Ltd,Mid-size Retailer,Birmingham,2024-06-03,Tom Bradley,Fashion,14
+CUST1010,Kite Retail Ltd,Small Retailer,Bristol,2023-05-11,Sarah Chen,Electronics,30
+CUST1011,Luma Trading Ltd,Small Retailer,Birmingham,2022-04-28,Priya Patel,Other,45
+CUST1012,Apex Direct Ltd,Small Retailer,Leeds,2023-01-02,Tom Bradley,Beauty,30
+CUST1013,Blue Commerce Ltd,Mid-size Retailer,Birmingham,2022-10-21,Sarah Chen,Food & Drink,30
+CUST1014,Coast Store Ltd,Small Retailer,London,2023-05-24,Tom Bradley,Fashion,30
+CUST1015,Delta Goods Ltd,Small Retailer,Manchester,2023-10-25,Tom Bradley,Electronics,30
+CUST1016,Echo Supply Ltd,Small Retailer,Birmingham,2023-05-02,Tom Bradley,Home,30
+CUST1017,Flair Market Ltd,Small Retailer,Manchester,2024-04-02,Mark Thompson,Food & Drink,30
+CUST1018,Grove Hub Ltd,Small Retailer,Manchester,2022-07-28,Aisha Rahman,Fashion,60
+CUST1019,Halo Co Ltd,Small Retailer,Glasgow,2024-05-10,Mark Thompson,Food & Drink,30
+CUST1020,Iris Retail Ltd,Mid-size Retailer,Birmingham,2023-01-03,Priya Patel,Food & Drink,30
+CUST1021,Jade Trading Ltd,Large Account,London,2024-05-17,Mark Thompson,Fashion,60
+CUST1022,Kite Direct Ltd,Mid-size Retailer,London,2024-05-22,Sarah Chen,Food & Drink,30
+CUST1023,Luma Commerce Ltd,Large Account,London,2023-10-30,James Wilson,Fashion,45
+CUST1024,Apex Store Ltd,Small Retailer,London,2024-04-24,Aisha Rahman,Electronics,60
+CUST1025,Blue Goods Ltd,Small Retailer,Birmingham,2024-01-18,Aisha Rahman,Beauty,30
+CUST1026,Coast Supply Ltd,Small Retailer,London,2022-10-20,Sarah Chen,Beauty,30
+CUST1027,Delta Market Ltd,Small Retailer,London,2022-10-06,Mark Thompson,Fashion,14
+CUST1028,Echo Hub Ltd,Small Retailer,Glasgow,2024-03-28,Priya Patel,Other,30
+CUST1029,Flair Co Ltd,Small Retailer,Glasgow,2024-02-01,Aisha Rahman,Books,14
+CUST1030,Grove Retail Ltd,Small Retailer,Leeds,2024-04-21,Priya Patel,Home,30
+CUST1031,Halo Trading Ltd,Small Retailer,Birmingham,2022-10-07,Tom Bradley,Home,60
+CUST1032,Iris Direct Ltd,Small Retailer,Birmingham,2022-11-30,Aisha Rahman,Beauty,30
+CUST1033,Jade Commerce Ltd,Small Retailer,London,2024-02-17,Priya Patel,Food & Drink,30
+CUST1034,Kite Store Ltd,Small Retailer,Leeds,2024-04-18,Tom Bradley,Other,30
+CUST1035,Luma Goods Ltd,Small Retailer,Bristol,2023-02-11,Tom Bradley,Home,60
+CUST1036,Apex Supply Ltd,Small Retailer,Manchester,2022-05-20,Mark Thompson,Other,30
+CUST1037,Blue Market Ltd,Mid-size Retailer,London,2024-04-19,Priya Patel,Other,30
+CUST1038,Coast Hub Ltd,Small Retailer,Bristol,2023-12-20,Aisha Rahman,Other,30
+CUST1039,Delta Co Ltd,Small Retailer,Leeds,2023-02-21,Mark Thompson,Other,30
+CUST1040,Echo Retail Ltd,Small Retailer,Birmingham,2024-02-16,Tom Bradley,Beauty,45
+CUST1041,Flair Trading Ltd,Small Retailer,London,2022-12-26,Tom Bradley,Home,30
+CUST1042,Grove Direct Ltd,Small Retailer,London,2022-05-15,James Wilson,Books,45
+CUST1043,Halo Commerce Ltd,Mid-size Retailer,Leeds,2023-11-08,Tom Bradley,Beauty,30
+CUST1044,Iris Store Ltd,Small Retailer,London,2023-01-21,Tom Bradley,Fashion,60
+CUST1045,Jade Goods Ltd,Small Retailer,Manchester,2022-06-23,Priya Patel,Fashion,30
+CUST1046,Kite Supply Ltd,Small Retailer,Bristol,2023-11-21,Sarah Chen,Home,30
+CUST1047,Luma Market Ltd,Mid-size Retailer,Glasgow,2022-11-09,James Wilson,Home,45
+CUST1048,Apex Hub Ltd,Small Retailer,London,2022-11-28,James Wilson,Food & Drink,30
+CUST1049,Blue Co Ltd,Mid-size Retailer,London,2024-08-07,Tom Bradley,Fashion,30
+CUST1050,Coast Retail Ltd,Mid-size Retailer,Birmingham,2024-03-04,Aisha Rahman,Food & Drink,30
+CUST1051,Delta Trading Ltd,Small Retailer,London,2022-05-26,Mark Thompson,Fashion,30
+CUST1052,Echo Direct Ltd,Small Retailer,London,2024-08-20,Aisha Rahman,Other,30
+CUST1053,Flair Commerce Ltd,Small Retailer,Birmingham,2023-03-16,Aisha Rahman,Other,30
+CUST1054,Grove Store Ltd,Small Retailer,Glasgow,2023-02-09,Sarah Chen,Fashion,30
+CUST1055,Halo Goods Ltd,Mid-size Retailer,London,2022-08-01,Sarah Chen,Electronics,60
+CUST1056,Iris Supply Ltd,Small Retailer,Bristol,2023-05-22,Aisha Rahman,Electronics,30
+CUST1057,Jade Market Ltd,Small Retailer,London,2022-09-29,Aisha Rahman,Fashion,14
+CUST1058,Kite Hub Ltd,Small Retailer,Birmingham,2022-06-08,Aisha Rahman,Beauty,45
+CUST1059,Luma Co Ltd,Small Retailer,Bristol,2024-02-18,Aisha Rahman,Beauty,30
+CUST1060,Apex Retail Ltd,Small Retailer,London,2022-09-30,Mark Thompson,Fashion,45
+CUST1061,Blue Trading Ltd,Small Retailer,Birmingham,2023-02-14,Aisha Rahman,Home,45
+CUST1062,Coast Direct Ltd,Small Retailer,London,2023-02-28,Sarah Chen,Home,30
+CUST1063,Delta Commerce Ltd,Small Retailer,Birmingham,2023-04-27,Tom Bradley,Food & Drink,30
+CUST1064,Echo Store Ltd,Small Retailer,London,2022-08-06,James Wilson,Other,30
+CUST1065,Flair Goods Ltd,Mid-size Retailer,Bristol,2022-10-19,Sarah Chen,Food & Drink,14
+CUST1066,Grove Supply Ltd,Small Retailer,Bristol,2023-11-18,Aisha Rahman,Books,60
+CUST1067,Halo Market Ltd,Mid-size Retailer,Leeds,2023-10-14,Sarah Chen,Other,30
+CUST1068,Iris Hub Ltd,Small Retailer,Manchester,2024-07-16,Sarah Chen,Fashion,30
+CUST1069,Jade Co Ltd,Small Retailer,Bristol,2023-01-23,James Wilson,Electronics,30
+CUST1070,Kite Retail Ltd,Small Retailer,Leeds,2024-01-06,James Wilson,Fashion,30
+CUST1071,Luma Trading Ltd,Mid-size Retailer,London,2022-06-12,Priya Patel,Electronics,14
+CUST1072,Apex Direct Ltd,Small Retailer,London,2024-05-17,James Wilson,Electronics,14
+CUST1073,Blue Commerce Ltd,Small Retailer,Glasgow,2023-03-16,Aisha Rahman,Food & Drink,30
+CUST1074,Coast Store Ltd,Small Retailer,London,2024-06-03,James Wilson,Home,30
+CUST1075,Delta Goods Ltd,Large Account,Manchester,2022-12-28,Tom Bradley,Books,30
+CUST1076,Echo Supply Ltd,Small Retailer,Birmingham,2023-09-19,Tom Bradley,Fashion,30
+CUST1077,Flair Market Ltd,Small Retailer,Glasgow,2023-11-08,Mark Thompson,Other,30
+CUST1078,Grove Hub Ltd,Small Retailer,Manchester,2022-08-26,Sarah Chen,Fashion,30
+CUST1079,Halo Co Ltd,Small Retailer,London,2022-07-08,Aisha Rahman,Food & Drink,14
+CUST1080,Iris Retail Ltd,Small Retailer,London,2024-04-24,Aisha Rahman,Fashion,30
+CUST1081,Jade Trading Ltd,Small Retailer,London,2022-09-12,Priya Patel,Food & Drink,30
+CUST1082,Kite Direct Ltd,Small Retailer,London,2022-12-22,Sarah Chen,Fashion,30
+CUST1083,Luma Commerce Ltd,Small Retailer,Manchester,2024-05-14,Sarah Chen,Fashion,30
+CUST1084,Apex Store Ltd,Small Retailer,Manchester,2022-08-16,Sarah Chen,Beauty,30
+CUST1085,Blue Goods Ltd,Small Retailer,Bristol,2022-06-14,Mark Thompson,Home,30
+CUST1086,Coast Supply Ltd,Mid-size Retailer,Leeds,2024-05-17,Sarah Chen,Electronics,30
+CUST1087,Delta Market Ltd,Small Retailer,Bristol,2024-06-08,Sarah Chen,Home,30
+CUST1088,Echo Hub Ltd,Mid-size Retailer,Manchester,2024-01-20,Priya Patel,Beauty,30
+CUST1089,Flair Co Ltd,Small Retailer,London,2022-07-08,Priya Patel,Beauty,30
+CUST1090,Grove Retail Ltd,Small Retailer,London,2023-08-05,Tom Bradley,Books,30
+CUST1091,Halo Trading Ltd,Mid-size Retailer,Glasgow,2023-10-20,James Wilson,Home,30
+CUST1092,Iris Direct Ltd,Small Retailer,London,2022-09-19,Priya Patel,Food & Drink,30
+CUST1093,Jade Commerce Ltd,Mid-size Retailer,Glasgow,2023-01-23,Tom Bradley,Electronics,60
+CUST1094,Kite Store Ltd,Mid-size Retailer,Manchester,2023-04-18,Tom Bradley,Food & Drink,45
+CUST1095,Luma Goods Ltd,Mid-size Retailer,Manchester,2023-04-30,Aisha Rahman,Electronics,30
+CUST1096,Apex Supply Ltd,Mid-size Retailer,Glasgow,2022-08-07,Tom Bradley,Other,30
+CUST1097,Blue Market Ltd,Large Account,Bristol,2022-07-29,Sarah Chen,Beauty,60
+CUST1098,Coast Hub Ltd,Small Retailer,London,2023-01-08,Sarah Chen,Electronics,30
+CUST1099,Delta Co Ltd,Mid-size Retailer,London,2023-08-26,Sarah Chen,Electronics,60
+CUST1100,Echo Retail Ltd,Small Retailer,Birmingham,2024-08-17,Aisha Rahman,Fashion,45
+CUST1101,Flair Trading Ltd,Mid-size Retailer,London,2024-05-20,Aisha Rahman,Food & Drink,30
+CUST1102,Grove Direct Ltd,Small Retailer,Leeds,2023-12-01,James Wilson,Other,30
+CUST1103,Halo Commerce Ltd,Small Retailer,Birmingham,2024-04-07,Tom Bradley,Other,30
+CUST1104,Iris Store Ltd,Small Retailer,Glasgow,2022-11-01,Aisha Rahman,Fashion,30
+CUST1105,Jade Goods Ltd,Mid-size Retailer,Leeds,2024-06-15,Priya Patel,Fashion,60
+CUST1106,Kite Supply Ltd,Mid-size Retailer,Leeds,2022-05-23,Aisha Rahman,Electronics,30
+CUST1107,Luma Market Ltd,Mid-size Retailer,Manchester,2023-12-07,Priya Patel,Food & Drink,30
+CUST1108,Apex Hub Ltd,Small Retailer,London,2024-06-15,Sarah Chen,Electronics,30
+CUST1109,Blue Co Ltd,Small Retailer,London,2024-07-26,Sarah Chen,Home,30
+CUST1110,Coast Retail Ltd,Mid-size Retailer,London,2023-09-28,Mark Thompson,Fashion,30
+CUST1111,Delta Trading Ltd,Small Retailer,Manchester,2022-11-19,Sarah Chen,Other,30
+CUST1112,Echo Direct Ltd,Small Retailer,Manchester,2022-06-15,Mark Thompson,Fashion,30
+CUST1113,Flair Commerce Ltd,Small Retailer,Manchester,2022-10-26,Aisha Rahman,Home,30
+CUST1114,Grove Store Ltd,Mid-size Retailer,Manchester,2023-01-16,Aisha Rahman,Food & Drink,30
+CUST1115,Halo Goods Ltd,Small Retailer,London,2023-08-15,Mark Thompson,Electronics,60
+CUST1116,Iris Supply Ltd,Small Retailer,London,2024-08-23,Mark Thompson,Food & Drink,30
+CUST1117,Jade Market Ltd,Small Retailer,London,2023-01-30,Sarah Chen,Home,30
+CUST1118,Kite Hub Ltd,Mid-size Retailer,London,2022-05-17,Sarah Chen,Fashion,30
+CUST1119,Luma Co Ltd,Small Retailer,Glasgow,2024-03-02,James Wilson,Beauty,30
