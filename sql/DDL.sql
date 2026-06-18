@@ -50,22 +50,26 @@ SELECT
     c.customer_name,
     c.customer_size,
 
-    -- Delivery metrics
+    -- Delivery attributes
     d.delivery_id,
     d.city,
-    d.shift_pattern,
-    d.revenue_gbp,
     d.delivery_date,
+    d.revenue_gbp,
 
-    -- Incident metrics
-    CASE WHEN i.incident_id IS NOT NULL THEN 1 ELSE 0 END AS incident_flag,
+    -- Courier attributes (shift pattern lives here)
+    cr.courier_id,
+    cr.shift_pattern,
+    cr.employment_type,
+
+    -- Incident attributes
     i.incident_id,
-    i.incident_type
+    i.incident_type,
+    CASE WHEN i.incident_id IS NOT NULL THEN 1 ELSE 0 END AS incident_flag
 
 FROM urbanshift.customers c
 JOIN urbanshift.deliveries d
     ON c.customer_id = d.customer_id
+JOIN urbanshift.couriers cr
+    ON d.courier_id = cr.courier_id
 LEFT JOIN urbanshift.incidents i
     ON d.delivery_id = i.delivery_id;
-
-
