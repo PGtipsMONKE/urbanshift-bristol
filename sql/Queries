@@ -1,0 +1,135 @@
+--Operational risk 
+--1 -incident rate and city 
+SELECT
+    d.city,
+    ROUND(COUNT(i.incident_id) * 100.0 / COUNT(d.delivery_id), 2) AS incident_rate_percent
+FROM urbanshift.deliveries d
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id
+GROUP BY d.city
+ORDER BY incident_rate_percent DESC;
+
+--2 incident rate and employment type
+SELECT
+    c.employment_type,
+    COUNT(d.delivery_id) AS total_deliveries,
+    COUNT(i.incident_id) AS total_incidents,
+    ROUND(COUNT(i.incident_id) * 100.0 / COUNT(d.delivery_id), 2) AS incident_rate_percent
+FROM urbanshift.deliveries d
+JOIN urbanshift.couriers c
+    ON d.courier_id = c.courier_id
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id
+GROUP BY c.employment_type
+ORDER BY incident_rate_percent DESC;
+
+--3 incident rate and shift pattern
+SELECT
+    c.shift_pattern,
+    COUNT(d.delivery_id) AS total_deliveries,
+    COUNT(i.incident_id) AS total_incidents,
+    ROUND(COUNT(i.incident_id) * 100.0 / COUNT(d.delivery_id), 2) AS incident_rate_percent
+FROM urbanshift.deliveries d
+JOIN urbanshift.couriers c
+    ON d.courier_id = c.courier_id
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id
+GROUP BY c.shift_pattern
+ORDER BY incident_rate_percent DESC;
+
+
+--4 incident rate, emplyment and shift pattern 
+SELECT
+    c.employment_type,
+    c.shift_pattern,
+    COUNT(d.delivery_id) AS total_deliveries,
+    COUNT(i.incident_id) AS total_incidents,
+    ROUND(COUNT(i.incident_id) * 100.0 / COUNT(d.delivery_id), 2) AS incident_rate_percent
+FROM urbanshift.deliveries d
+JOIN urbanshift.couriers c
+    ON d.courier_id = c.courier_id
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id
+GROUP BY c.employment_type, c.shift_pattern
+ORDER BY incident_rate_percent DESC;
+
+------------------------------------------------------------------------------------
+--Profitability 
+--1 total revenue, revenue per delivery
+SELECT
+    c.customer_size AS account_size,
+
+    ROUND(AVG(d.revenue_gbp),2) AS revenue_per_delivery,
+
+    ROUND(SUM(d.revenue_gbp),0) AS total_revenue,
+
+    COUNT(d.delivery_id) AS total_deliveries,
+
+    COUNT(DISTINCT c.customer_id) AS accounts
+
+FROM urbanshift.customers c
+
+JOIN urbanshift.deliveries d
+    ON c.customer_id = d.customer_id
+
+GROUP BY c.customer_size
+
+ORDER BY revenue_per_delivery DESC;
+
+--2 incident rate
+
+SELECT
+    c.customer_size,
+
+    COUNT(d.delivery_id) AS deliveries,
+
+    COUNT(i.incident_id) AS incidents,
+
+    ROUND(
+        COUNT(i.incident_id) * 100.0 /
+        NULLIF(COUNT(d.delivery_id),0),
+        1
+    ) AS incident_rate_pct
+
+FROM urbanshift.customers c
+
+JOIN urbanshift.deliveries d
+    ON c.customer_id = d.customer_id
+
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id
+
+GROUP BY c.customer_size
+
+ORDER BY incident_rate_pct DESC;
+
+--3 Customer size distribution 
+SELECT
+    c.customer_size,
+    COUNT(d.delivery_id) AS total_deliveries,
+    COUNT(DISTINCT c.customer_id) AS number_of_accounts,
+    ROUND(
+        COUNT(d.delivery_id) * 1.0 / COUNT(DISTINCT c.customer_id),
+        1
+    ) AS avg_deliveries_per_account
+FROM urbanshift.customers c
+JOIN urbanshift.deliveries d
+    ON c.customer_id = d.customer_id
+GROUP BY c.customer_size
+ORDER BY total_deliveries DESC;
+
+
+--4 delivery volume grouped by customer size 
+SELECT
+    c.customer_size,
+    COUNT(d.delivery_id) AS total_deliveries,
+    COUNT(DISTINCT c.customer_id) AS number_of_accounts,
+    ROUND(
+        COUNT(d.delivery_id) * 1.0 / COUNT(DISTINCT c.customer_id),
+        1
+    ) AS avg_deliveries_per_account
+FROM urbanshift.customers c
+JOIN urbanshift.deliveries d
+    ON c.customer_id = d.customer_id
+GROUP BY c.customer_size
+ORDER BY total_deliveries DESC;
