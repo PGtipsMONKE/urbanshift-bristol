@@ -42,3 +42,30 @@ CREATE TABLE incidents (
     FOREIGN KEY (delivery_id) REFERENCES deliveries(delivery_id)
 );
 
+
+CREATE OR REPLACE VIEW urbanshift.vw_customer_delivery_summary AS
+SELECT
+    -- Customer attributes
+    c.customer_id,
+    c.customer_name,
+    c.customer_size,
+
+    -- Delivery metrics
+    d.delivery_id,
+    d.city,
+    d.shift_pattern,
+    d.revenue_gbp,
+    d.delivery_date,
+
+    -- Incident metrics
+    CASE WHEN i.incident_id IS NOT NULL THEN 1 ELSE 0 END AS incident_flag,
+    i.incident_id,
+    i.incident_type
+
+FROM urbanshift.customers c
+JOIN urbanshift.deliveries d
+    ON c.customer_id = d.customer_id
+LEFT JOIN urbanshift.incidents i
+    ON d.delivery_id = i.delivery_id;
+
+
